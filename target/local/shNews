@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-readonly PKG_NAME="CLI Project"
-readonly PKG_VERS="0.1.0"
-readonly PKG_REPO="github.com/user/cli-project"
-readonly ROOT="/home/andikod/code/bash/shNews"
+readonly ROOT="/home/andikod/code/sherpa/bbr/bin/shNews"
 readonly SDD="$HOME/.sherpa"     # Sherpa Dot-Dir
 readonly SCD="$HOME/code/sherpa" # Sherpa Custom-Dir
 readonly EDITOR="vim"            # Default Editor
@@ -321,10 +318,12 @@ done
 shift $((OPTIND - 1))
 use "std/fmt"
 main() {
-h1 " --= $(get_yaml_item "package.name" "${ROOT}/Sherpa.yaml") =--"
+h1 " --= Sh:news =--"
 hr "=+=" "-"
 br
 p "This will be a BlogLike BashBox, with Sh:erpa News."
+p "So far, it serves as demo unit for install/unistalls."
+p "Repo: $(package "repo")"
 br
 }
 if [[ "$#" == 0 ]]; then

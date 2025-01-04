@@ -7,6 +7,7 @@ main() {
   br
   p "This will be a BlogLike BashBox, with Sh:erpa News."
   p "So far, it serves as demo unit for install/unistalls."
+  p "Repo: $(package "repo")"
   br
 
 }
