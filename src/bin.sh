@@ -2,10 +2,11 @@ use "std/fmt"
 
 main() {
 
-  h1 " --= $(package "name") =--"
+  h1 " --= Sh:news =--"
   hr "=+=" "-"
   br
   p "This will be a BlogLike BashBox, with Sh:erpa News."
+  p "So far, it serves as demo unit for install/unistalls."
   br
 
 }

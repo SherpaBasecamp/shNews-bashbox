@@ -3,5 +3,3 @@ package:
   version: 0.1.0
   repo: https://github.com/SherpaBasecamp/shNews-bashbox
   executable: shNews
-  root: /home/andikod/code/bash/shNews
-  type: localBin
