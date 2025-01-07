@@ -25,8 +25,7 @@ if [[ "$1" == "Release 0.1.0" ]]; then
   h1 " -= Release 0.1.0 =-"
   hr "sh:News" "-"
   br
-  p "Because we have to start at some point, the v0.1.0 will be out soon enough. 
-  The Docs and the Discord took quite some time, but at least they're up."
+  p "Because we have to start at some point, the v0.1.0 will be out soon enough. The Docs and the Discord took quite some time, but at least they're up."
   br
   p "It's not quite ready, but come say hi on Discord ;)"
   br
