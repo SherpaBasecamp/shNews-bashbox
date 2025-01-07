@@ -6,13 +6,27 @@ main() {
   hr "=+=" "-"
   br
   p "This will be a BlogLike BashBox, with Sh:erpa News."
-  p "So far, it serves as demo unit for install/unistalls."
+  p "Usage: shNews \"<titile>\""
   br
-  p "The Discord is quite ready, btw."
+  h2 "Latest Article"
+  p "${strong}Release 0.1.0"${x}
+  br
 }
 
 # Calling the main() function
 if [[ "$#" == 0 ]]; then
   main
-  exit 0
+  exit  
+fi
+
+# Some article route
+if [[ "$1" == "Release 0.1.0" ]]; then
+  clear
+  h1 "-= Release 0.1.0 =-"
+  hr "sh:News" "-"
+  p "Because we have to start at some point, the v0.1.0 will be out soon enough."
+  p "The Docs and the Discord took quite some time, but at least they're up."
+  p "It's not quite ready, but come say hi on Discord ;)
+  br
+  p "Draft ${em}by AndiKod${x} - Jan8 25"
 fi
