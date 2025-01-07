@@ -26,7 +26,7 @@ if [[ "$1" == "Release 0.1.0" ]]; then
   hr "sh:News" "-"
   p "Because we have to start at some point, the v0.1.0 will be out soon enough."
   p "The Docs and the Discord took quite some time, but at least they're up."
-  p "It's not quite ready, but come say hi on Discord ;)
+  p "It's not quite ready, but come say hi on Discord ;)"
   br
   p "Draft ${em}by AndiKod${x} - Jan8 25"
 fi
