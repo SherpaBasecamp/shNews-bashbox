@@ -1,7 +1,7 @@
 use "std/fmt"
 
 main() {
-
+  clear
   h1 " --= Sh:news =--"
   hr "=+=" "-"
   br
@@ -9,7 +9,6 @@ main() {
   p "So far, it serves as demo unit for install/unistalls."
   p "Repo: $(package "repo")"
   br
-
 }
 
 # Calling the main() function
